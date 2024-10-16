@@ -13,18 +13,19 @@
   }
 
   .banner {
-    width: 350px;
-    height: 100px;
+    width: 330px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4eb3a5;
+    background: linear-gradient(270deg, #0f2027, #203a43, #2c5364); /* Градиент черно-синего оттенка */
+    background-size: 400% 400%; /* Для плавного переливания */
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     text-align: center;
-    animation: fadeIn 1s ease-in-out;
+    animation: clickMe 7s infinite, gradientShift 3s ease infinite; /* Добавлена анимация градиента */
   }
 
   .banner:hover {
@@ -53,14 +54,21 @@
     justify-content: center;
     align-items: center;
   }
-  
 
-@keyframes fadeIn {
-  0% { opacity: 0; transform: scale(0.9); }
-  100% { opacity: 1; transform: scale(1); }
-}
+  @keyframes clickMe {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.01); }
+    100% { transform: scale(1); }
+  }
 
+  /* Анимация плавного переливания цвета */
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
 </style>
+
 
 <body>
   <a href='https://t.me/spaceadv_game_bot/play?startapp=6787839537'>
@@ -118,8 +126,5 @@
     document.querySelector('.ttle').innerText = randomPhrases.title;
     document.querySelector('.tle').innerText = randomPhrases.subtitle;
     
-    setTimeout(() => {
-      window.location.reload();
-    }, 10000)
   </script>
 </body>
