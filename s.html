@@ -57,9 +57,56 @@
   <a href='https://t.me/spaceadv_game_bot/play?startapp=6787839537'>
     <div class="banner">
       <div class="content">
-        <h1>ПОЛУЧИ БОНУС!</h1>
-        <p>Нажми, чтобы узнать больше</p>
+        <h1 class='ttle'></h1>
+        <p class='tle'></p>
       </div>
     </div>
   </a>
+
+  <script>
+    // Объект с рандомными фразами для разных языков
+    const langs = {
+      "ru": {
+        "titles": [
+          "70₽ ЗА 3 ДНЯ",
+          "Заработай 70₽!",
+          "Забирай деньги каждый час"
+        ],
+        "subtitles": [
+          "Кликай!",
+          "Узнай больше!",
+          "Прими участие!"
+        ]
+      },
+      "en": {
+        "titles": [
+          "Earn $1 in 3 Days",
+          "Easy Money!",
+          "Claim money every hour!"
+        ],
+        "subtitles": [
+          "Click now!",
+          "Find out more!",
+          "Join now!"
+        ]
+      }
+    };
+
+    // Функция для случайного выбора фразы
+    function getRandomPhrase(lang) {
+      const title = langs[lang].titles[Math.floor(Math.random() * langs[lang].titles.length)];
+      const subtitle = langs[lang].subtitles[Math.floor(Math.random() * langs[lang].subtitles.length)];
+      return { title, subtitle };
+    }
+
+    // Здесь задаем язык (например, 'ru' или 'en')
+    const userLang = navigator.language.startsWith('ru') ? 'ru' : 'en';
+
+    // Получаем случайные фразы на выбранном языке
+    const randomPhrases = getRandomPhrase(userLang);
+
+    // Устанавливаем заголовок и подзаголовок
+    document.querySelector('.ttle').innerText = randomPhrases.title;
+    document.querySelector('.tle').innerText = randomPhrases.subtitle;
+  </script>
 </body>
