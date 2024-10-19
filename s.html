@@ -1,15 +1,14 @@
-
 <style>
   body {
     margin: 0;
     padding: 0;
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
-    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: transparent; /* Убедитесь, что фон прозрачный для iframe */
   }
 
   .banner {
@@ -18,19 +17,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(270deg, #808080, #ffd700, #808080); /* Градиент черно-синего оттенка */
-    background-size: 400% 400%; /* Для плавного переливания */
+    background: linear-gradient(270deg, #808080, #ffd700, #808080);
+    background-size: 400% 400%;
     border-radius: 10% 14px 15% 18px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     text-align: center;
-    animation: clickMe 7s infinite, gradientShift 7s ease infinite; /* Добавлена анимация градиента */
+    animation: clickMe 7s infinite, gradientShift 7s ease infinite;
   }
 
   .banner:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
   }
 
   .content h1 {
@@ -38,12 +37,14 @@
     font-size: 1.2rem;
     margin: 0;
     padding-bottom: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   }
 
   .content p {
     color: #dcdcdc;
     font-size: 0.9rem;
     margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   }
 
   a {
@@ -61,14 +62,12 @@
     100% { transform: scale(1); }
   }
 
-  /* Анимация плавного переливания цвета */
   @keyframes gradientShift {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
-  }
+}
 </style>
-
 
 <body>
   <a href='https://yip.su/250MX5'>
@@ -80,51 +79,45 @@
     </div>
   </a>
 
-  <script>
-    // Объект с рандомными фразами для разных языков
-    const langs = {
-      "ru": {
-        "titles": [
-          "70₽ ЗА 3 ДНЯ",
-          "Заработай 70₽!",
-          "Забирай деньги каждый час"
-        ],
-        "subtitles": [
-          "Кликай!",
-          "Узнай больше!",
-          "Прими участие!"
-        ]
-      },
-      "en": {
-        "titles": [
-          "Earn $1 in 3 Days",
-          "Easy Money!",
-          "Claim money every hour!"
-        ],
-        "subtitles": [
-          "Click now!",
-          "Find out more!",
-          "Join now!"
-        ]
-      }
-    };
+<script>
+const langs = {
+  "ru": {
+    "titles": [
+      "70₽ ЗА 3 ДНЯ",
+      "Заработай 70₽!",
+      "Забирай деньги каждый час"
+    ],
+    "subtitles": [
+      "Кликай!",
+      "Узнай больше!",
+      "Прими участие!"
+    ]
+  },
+  "en": {
+    "titles": [
+      "Earn $1 in 3 Days",
+      "Easy Money!",
+      "Claim money every hour!"
+    ],
+    "subtitles": [
+      "Click now!",
+      "Find out more!",
+      "Join now!"
+    ]
+  }
+};
 
-    // Функция для случайного выбора фразы
-    function getRandomPhrase(lang) {
-      const title = langs[lang].titles[Math.floor(Math.random() * langs[lang].titles.length)];
-      const subtitle = langs[lang].subtitles[Math.floor(Math.random() * langs[lang].subtitles.length)];
-      return { title, subtitle };
-    }
+function getRandomPhrase(lang) {
+  const title = langs[lang].titles[Math.floor(Math.random() * langs[lang].titles.length)];
+  const subtitle = langs[lang].subtitles[Math.floor(Math.random() * langs[lang].subtitles.length)];
+  return { title, subtitle };
+}
 
-    // Здесь задаем язык (например, 'ru' или 'en')
-    const userLang = navigator.language.startsWith('ru') ? 'ru' : 'en';
+const userLang = navigator.language.startsWith('ru') ? 'ru' : 'en';
+const randomPhrases = getRandomPhrase(userLang);
 
-    // Получаем случайные фразы на выбранном языке
-    const randomPhrases = getRandomPhrase(userLang);
+document.querySelector('.ttle').innerText = randomPhrases.title;
+document.querySelector('.tle').innerText = randomPhrases.subtitle;
 
-    // Устанавливаем заголовок и подзаголовок
-    document.querySelector('.ttle').innerText = randomPhrases.title;
-    document.querySelector('.tle').innerText = randomPhrases.subtitle;
-    
-  </script>
+</script>
 </body>
