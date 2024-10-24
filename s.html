@@ -1,1 +1,107 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #282c34;
+      font-family: 'Arial', sans-serif;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      gap: 20px; /* Расстояние между кнопкой и текстом */
+      flex-direction: column;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1.5em;
+      color: #fff;
+      background-color: #61dafb;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #21a1f1;
+    }
+
+    button:active {
+      background-color: #1b8cd8;
+    }
+
+    .text-right {
+      color: #fff;
+      font-size: 1.5em;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .text-right.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    noscript {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(98127854, "init", {
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+    });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/98127854" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <div>
+    <h1>You so cute</h1>
+    <div class="content">
+      <button id="pizdec" onclick="clickButton()">You too</button>
+      <div class="text-right" id="right-text">You are amazing!</div>
+    </div>
+  </div>
+  
+  <script>
+    function clickButton() {
+      document.getElementById("pizdec").innerText = '❤';
+      document.getElementById("right-text").classList.add('show');
+    }
+  </script>
+
+</body>
+</html>
