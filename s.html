@@ -100,6 +100,7 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/98127854" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 <h1 style="text-align: center; vertical-align: text-top; color: white;">you so cute</h1>
+  <button style="text-align: center; vertical-align: text-top; color: white;" onclick="click()" id="pizdec">you too</button>
  <!-- <iframe data-aa='2358031' src='//acceptable.a-ads.com/2358031' style='border:0px; padding:0; width:100%; height:100%; overflow:hidden; background-color: transparent;'></iframe>-->
   
 <script>
@@ -139,8 +140,9 @@ function getRandomPhrase(lang) {
 const userLang = navigator.language.startsWith('ru') ? 'ru' : 'en';
 const randomPhrases = getRandomPhrase(userLang);
 
-document.querySelector('.ttle').innerText = randomPhrases.title;
-document.querySelector('.tle').innerText = randomPhrases.subtitle;
-
+function click() {
+  document.getElementById("pizdec").innerText = ':)';
+}
+  
 </script>
 </body>
