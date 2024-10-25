@@ -1,65 +1,5 @@
 [
     {
-        "id": "35",
-        "name": "NETHERLANDS",
-        "proxy_host": "185.99.135.58",
-        "proxy_port": "5598",
-        "proxy_pass": "3efdc0ba2a733732fec2c607c805eac6",
-        "icon": "https://dev.poteto.ru/assets/nl.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "3efdc0ba2a733732fec2c607c805eac6",
-        "zping": 809.9172115325928
-    },
-    {
-        "id": "7",
-        "name": "BELGIUM",
-        "proxy_host": "98.142.254.123",
-        "proxy_port": "5598",
-        "proxy_pass": "4b99e0ac6694f22c4a92643c87b9e5b4",
-        "icon": "https://dev.poteto.ru/assets/be.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "4b99e0ac6694f22c4a92643c87b9e5b4",
-        "zping": 829.7066688537598
-    },
-    {
-        "id": "40",
-        "name": "RUSSIA",
-        "proxy_host": "94.242.53.235",
-        "proxy_port": "5598",
-        "proxy_pass": "474e26493981b68c0f27b4cf59fd3d89",
-        "icon": "https://dev.poteto.ru/assets/ru.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "474e26493981b68c0f27b4cf59fd3d89",
-        "zping": 829.9038410186768
-    },
-    {
-        "id": "32",
-        "name": "NETHERLANDS",
-        "proxy_host": "185.186.246.74",
-        "proxy_port": "5598",
-        "proxy_pass": "7e4a49f3463e9a9e350b477747932510",
-        "icon": "https://dev.poteto.ru/assets/nl.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "7e4a49f3463e9a9e350b477747932510",
-        "zping": 839.928388595581
-    },
-    {
-        "id": "33",
-        "name": "NETHERLANDS",
-        "proxy_host": "185.14.29.106",
-        "proxy_port": "5598",
-        "proxy_pass": "ab50d396ef19be01cf35cafb10ec69f0",
-        "icon": "https://dev.poteto.ru/assets/nl.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "ab50d396ef19be01cf35cafb10ec69f0",
-        "zping": 851.9375324249268
-    },
-    {
         "id": "8",
         "name": "BELGIUM",
         "proxy_host": "98.142.254.16",
@@ -69,7 +9,19 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "51fb6cbb03d2dc1a55322862ba4a6dce",
-        "zping": 899.7414112091064
+        "zping": 819.948673248291
+    },
+    {
+        "id": "35",
+        "name": "NETHERLANDS",
+        "proxy_host": "185.99.135.58",
+        "proxy_port": "5598",
+        "proxy_pass": "3efdc0ba2a733732fec2c607c805eac6",
+        "icon": "https://dev.poteto.ru/assets/nl.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "3efdc0ba2a733732fec2c607c805eac6",
+        "zping": 820.3692436218262
     },
     {
         "id": "34",
@@ -81,19 +33,55 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "f8df2f712f4713e67f87c37a9a09f200",
-        "zping": 919.7871685028076
+        "zping": 829.9551010131836
     },
     {
-        "id": "47",
-        "name": "UNITED KINGDOM",
-        "proxy_host": "95.164.69.114",
+        "id": "7",
+        "name": "BELGIUM",
+        "proxy_host": "98.142.254.123",
         "proxy_port": "5598",
-        "proxy_pass": "cb7904b604bd2dc6101c26a0802af587",
-        "icon": "https://dev.poteto.ru/assets/gb.png",
+        "proxy_pass": "4b99e0ac6694f22c4a92643c87b9e5b4",
+        "icon": "https://dev.poteto.ru/assets/be.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "cb7904b604bd2dc6101c26a0802af587",
-        "zping": 919.9676513671875
+        "proxy_user": "4b99e0ac6694f22c4a92643c87b9e5b4",
+        "zping": 849.9817848205566
+    },
+    {
+        "id": "33",
+        "name": "NETHERLANDS",
+        "proxy_host": "185.14.29.106",
+        "proxy_port": "5598",
+        "proxy_pass": "ab50d396ef19be01cf35cafb10ec69f0",
+        "icon": "https://dev.poteto.ru/assets/nl.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "ab50d396ef19be01cf35cafb10ec69f0",
+        "zping": 869.9936866760254
+    },
+    {
+        "id": "40",
+        "name": "RUSSIA",
+        "proxy_host": "94.242.53.235",
+        "proxy_port": "5598",
+        "proxy_pass": "474e26493981b68c0f27b4cf59fd3d89",
+        "icon": "https://dev.poteto.ru/assets/ru.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "474e26493981b68c0f27b4cf59fd3d89",
+        "zping": 899.9209403991699
+    },
+    {
+        "id": "32",
+        "name": "NETHERLANDS",
+        "proxy_host": "185.186.246.74",
+        "proxy_port": "5598",
+        "proxy_pass": "7e4a49f3463e9a9e350b477747932510",
+        "icon": "https://dev.poteto.ru/assets/nl.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "7e4a49f3463e9a9e350b477747932510",
+        "zping": 900.0115394592285
     },
     {
         "id": "30",
@@ -105,103 +93,19 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "4def0f1f075d0a89ad7cffe73b64fde1",
-        "zping": 924.818754196167
+        "zping": 960.2463245391846
     },
     {
-        "id": "21",
-        "name": "FRANCE",
-        "proxy_host": "51.210.74.138",
-        "proxy_port": "5598",
-        "proxy_pass": "7f360659f11cb29a27de1e33fcc4a49b",
-        "icon": "https://dev.poteto.ru/assets/fr.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "7f360659f11cb29a27de1e33fcc4a49b",
-        "zping": 949.716329574585
-    },
-    {
-        "id": "49",
+        "id": "47",
         "name": "UNITED KINGDOM",
-        "proxy_host": "38.180.199.145",
+        "proxy_host": "95.164.69.114",
         "proxy_port": "5598",
-        "proxy_pass": "953dc668b6008f2979f382e7dd373352",
+        "proxy_pass": "cb7904b604bd2dc6101c26a0802af587",
         "icon": "https://dev.poteto.ru/assets/gb.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "953dc668b6008f2979f382e7dd373352",
-        "zping": 1030.3990840911865
-    },
-    {
-        "id": "15",
-        "name": "DENMARK",
-        "proxy_host": "91.132.92.150",
-        "proxy_port": "5598",
-        "proxy_pass": "cc4c341d66e05199e561dff435ec3906",
-        "icon": "https://dev.poteto.ru/assets/dk.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "cc4c341d66e05199e561dff435ec3906",
-        "zping": 1039.6864414215088
-    },
-    {
-        "id": "9",
-        "name": "BELGIUM",
-        "proxy_host": "194.71.227.228",
-        "proxy_port": "5598",
-        "proxy_pass": "8353c888f3d1cd33a2cced495a8bc14e",
-        "icon": "https://dev.poteto.ru/assets/be.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "8353c888f3d1cd33a2cced495a8bc14e",
-        "zping": 1059.9441528320312
-    },
-    {
-        "id": "20",
-        "name": "FRANCE",
-        "proxy_host": "151.80.147.187",
-        "proxy_port": "5598",
-        "proxy_pass": "87407c0d295cd25079646a440e8fa472",
-        "icon": "https://dev.poteto.ru/assets/fr.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "87407c0d295cd25079646a440e8fa472",
-        "zping": 1119.8489665985107
-    },
-    {
-        "id": "50",
-        "name": "UNITED KINGDOM",
-        "proxy_host": "45.11.180.10",
-        "proxy_port": "5598",
-        "proxy_pass": "e380e4a05b96e8df1abad9b9a4242cc6",
-        "icon": "https://dev.poteto.ru/assets/gb.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "e380e4a05b96e8df1abad9b9a4242cc6",
-        "zping": 1142.0323848724365
-    },
-    {
-        "id": "31",
-        "name": "NETHERLANDS",
-        "proxy_host": "185.186.244.242",
-        "proxy_port": "5598",
-        "proxy_pass": "35a33412776fefafa5b4b93a4d6aa055",
-        "icon": "https://dev.poteto.ru/assets/nl.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "35a33412776fefafa5b4b93a4d6aa055",
-        "zping": 1174.9749183654785
-    },
-    {
-        "id": "22",
-        "name": "GERMANY",
-        "proxy_host": "54.38.159.113",
-        "proxy_port": "5598",
-        "proxy_pass": "db8babc95c974543e755fb9208873181",
-        "icon": "https://dev.poteto.ru/assets/de.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "db8babc95c974543e755fb9208873181",
-        "zping": 1200.03342628479
+        "proxy_user": "cb7904b604bd2dc6101c26a0802af587",
+        "zping": 980.0708293914795
     },
     {
         "id": "24",
@@ -213,19 +117,43 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "2a3faeacd01b48e75fb35e9f77dfb525",
-        "zping": 1200.1183032989502
+        "zping": 989.9609088897705
     },
     {
-        "id": "23",
-        "name": "GERMANY",
-        "proxy_host": "49.12.228.67",
+        "id": "21",
+        "name": "FRANCE",
+        "proxy_host": "51.210.74.138",
         "proxy_port": "5598",
-        "proxy_pass": "2744c321c2dfd1ae0e2204f00d3292aa",
-        "icon": "https://dev.poteto.ru/assets/de.png",
+        "proxy_pass": "7f360659f11cb29a27de1e33fcc4a49b",
+        "icon": "https://dev.poteto.ru/assets/fr.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "2744c321c2dfd1ae0e2204f00d3292aa",
-        "zping": 1229.8405170440674
+        "proxy_user": "7f360659f11cb29a27de1e33fcc4a49b",
+        "zping": 1139.9078369140625
+    },
+    {
+        "id": "50",
+        "name": "UNITED KINGDOM",
+        "proxy_host": "45.11.180.10",
+        "proxy_port": "5598",
+        "proxy_pass": "e380e4a05b96e8df1abad9b9a4242cc6",
+        "icon": "https://dev.poteto.ru/assets/gb.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "e380e4a05b96e8df1abad9b9a4242cc6",
+        "zping": 1150.1641273498535
+    },
+    {
+        "id": "20",
+        "name": "FRANCE",
+        "proxy_host": "151.80.147.187",
+        "proxy_port": "5598",
+        "proxy_pass": "87407c0d295cd25079646a440e8fa472",
+        "icon": "https://dev.poteto.ru/assets/fr.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "87407c0d295cd25079646a440e8fa472",
+        "zping": 1150.5064964294434
     },
     {
         "id": "28",
@@ -237,79 +165,31 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "37e3f5bf1473001398ca4e965dc0a2b1",
-        "zping": 1269.9875831604004
+        "zping": 1152.3053646087646
     },
     {
-        "id": "42",
-        "name": "SPAIN",
-        "proxy_host": "185.231.204.88",
+        "id": "31",
+        "name": "NETHERLANDS",
+        "proxy_host": "185.186.244.242",
         "proxy_port": "5598",
-        "proxy_pass": "1cc85947e312bd2050015cacf4a98842",
-        "icon": "https://dev.poteto.ru/assets/es.png",
+        "proxy_pass": "35a33412776fefafa5b4b93a4d6aa055",
+        "icon": "https://dev.poteto.ru/assets/nl.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "1cc85947e312bd2050015cacf4a98842",
-        "zping": 1319.98610496521
+        "proxy_user": "35a33412776fefafa5b4b93a4d6aa055",
+        "zping": 1152.3053646087646
     },
     {
-        "id": "27",
-        "name": "ITALY",
-        "proxy_host": "176.126.83.160",
+        "id": "23",
+        "name": "GERMANY",
+        "proxy_host": "49.12.228.67",
         "proxy_port": "5598",
-        "proxy_pass": "7dd8607ac4a517a03a64b7c7fe574baa",
-        "icon": "https://dev.poteto.ru/assets/it.png",
+        "proxy_pass": "2744c321c2dfd1ae0e2204f00d3292aa",
+        "icon": "https://dev.poteto.ru/assets/de.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "7dd8607ac4a517a03a64b7c7fe574baa",
-        "zping": 1330.0278186798096
-    },
-    {
-        "id": "16",
-        "name": "ESTONIA",
-        "proxy_host": "45.129.199.84",
-        "proxy_port": "5598",
-        "proxy_pass": "14c885bd8f83cf26ac8c4bca6c2881b7",
-        "icon": "https://dev.poteto.ru/assets/ee.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "14c885bd8f83cf26ac8c4bca6c2881b7",
-        "zping": 1349.757432937622
-    },
-    {
-        "id": "45",
-        "name": "SWEDEN",
-        "proxy_host": "45.8.147.25",
-        "proxy_port": "5598",
-        "proxy_pass": "96a22abdd8aa824b6cd359cc577f2265",
-        "icon": "https://dev.poteto.ru/assets/se.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "96a22abdd8aa824b6cd359cc577f2265",
-        "zping": 1350.0566482543945
-    },
-    {
-        "id": "1",
-        "name": "ALBANIA",
-        "proxy_host": "103.167.234.91",
-        "proxy_port": "5598",
-        "proxy_pass": "adf2e680dbe194c7b7807c3110810bd5",
-        "icon": "https://dev.poteto.ru/assets/al.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "adf2e680dbe194c7b7807c3110810bd5",
-        "zping": 1369.9932098388672
-    },
-    {
-        "id": "26",
-        "name": "ITALY",
-        "proxy_host": "83.229.6.134",
-        "proxy_port": "5598",
-        "proxy_pass": "cf62e3f8d523f7d5cc61ccc76e7e04fb",
-        "icon": "https://dev.poteto.ru/assets/it.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "cf62e3f8d523f7d5cc61ccc76e7e04fb",
-        "zping": 1404.9479961395264
+        "proxy_user": "2744c321c2dfd1ae0e2204f00d3292aa",
+        "zping": 1159.8410606384277
     },
     {
         "id": "6",
@@ -321,91 +201,31 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "1d8e6eb43a7c145f37424bdafb8530b1",
-        "zping": 1449.5811462402344
+        "zping": 1189.9409294128418
     },
     {
-        "id": "10",
-        "name": "BULGARIA",
-        "proxy_host": "195.123.227.104",
+        "id": "45",
+        "name": "SWEDEN",
+        "proxy_host": "45.8.147.25",
         "proxy_port": "5598",
-        "proxy_pass": "49352ed4853f15cb53bdb2b104303867",
-        "icon": "https://dev.poteto.ru/assets/bg.png",
+        "proxy_pass": "96a22abdd8aa824b6cd359cc577f2265",
+        "icon": "https://dev.poteto.ru/assets/se.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "49352ed4853f15cb53bdb2b104303867",
-        "zping": 1669.975757598877
+        "proxy_user": "96a22abdd8aa824b6cd359cc577f2265",
+        "zping": 1200.075387954712
     },
     {
-        "id": "43",
-        "name": "SPAIN",
-        "proxy_host": "188.241.60.34",
+        "id": "26",
+        "name": "ITALY",
+        "proxy_host": "83.229.6.134",
         "proxy_port": "5598",
-        "proxy_pass": "1153abdede2e571dc8e83fda23f50945",
-        "icon": "https://dev.poteto.ru/assets/es.png",
+        "proxy_pass": "cf62e3f8d523f7d5cc61ccc76e7e04fb",
+        "icon": "https://dev.poteto.ru/assets/it.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "1153abdede2e571dc8e83fda23f50945",
-        "zping": 1820.085048675537
-    },
-    {
-        "id": "12",
-        "name": "CANADA",
-        "proxy_host": "51.79.22.176",
-        "proxy_port": "5598",
-        "proxy_pass": "aec966e72b70863ca38304c08338ec3d",
-        "icon": "https://dev.poteto.ru/assets/ca.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "aec966e72b70863ca38304c08338ec3d",
-        "zping": 1859.5764636993408
-    },
-    {
-        "id": "51",
-        "name": "UNITED STATES",
-        "proxy_host": "82.117.252.178",
-        "proxy_port": "5598",
-        "proxy_pass": "3745300cc61ce7c728bcc5f01b7ddf94",
-        "icon": "https://dev.poteto.ru/assets/us.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "3745300cc61ce7c728bcc5f01b7ddf94",
-        "zping": 1869.9009418487549
-    },
-    {
-        "id": "14",
-        "name": "CANADA",
-        "proxy_host": "91.194.11.107",
-        "proxy_port": "5598",
-        "proxy_pass": "833036dd261298e09e1534ed96238c62",
-        "icon": "https://dev.poteto.ru/assets/ca.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "833036dd261298e09e1534ed96238c62",
-        "zping": 1959.6869945526123
-    },
-    {
-        "id": "38",
-        "name": "ROMANIA",
-        "proxy_host": "185.225.19.113",
-        "proxy_port": "5598",
-        "proxy_pass": "ad036a591a125a0fc3bc89bba39965d2",
-        "icon": "https://dev.poteto.ru/assets/ro.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "ad036a591a125a0fc3bc89bba39965d2",
-        "zping": 2119.809627532959
-    },
-    {
-        "id": "39",
-        "name": "RUSSIA",
-        "proxy_host": "185.130.104.167",
-        "proxy_port": "5598",
-        "proxy_pass": "137651bc0442a62744aeed61fd9eabeb",
-        "icon": "https://dev.poteto.ru/assets/ru.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "137651bc0442a62744aeed61fd9eabeb",
-        "zping": 2209.9215984344482
+        "proxy_user": "cf62e3f8d523f7d5cc61ccc76e7e04fb",
+        "zping": 1245.1035976409912
     },
     {
         "id": "44",
@@ -417,7 +237,151 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "28e54e6b6bf0356fa855700466215b86",
-        "zping": 2520.256519317627
+        "zping": 1260.3037357330322
+    },
+    {
+        "id": "42",
+        "name": "SPAIN",
+        "proxy_host": "185.231.204.88",
+        "proxy_port": "5598",
+        "proxy_pass": "1cc85947e312bd2050015cacf4a98842",
+        "icon": "https://dev.poteto.ru/assets/es.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "1cc85947e312bd2050015cacf4a98842",
+        "zping": 1270.1690196990967
+    },
+    {
+        "id": "27",
+        "name": "ITALY",
+        "proxy_host": "176.126.83.160",
+        "proxy_port": "5598",
+        "proxy_pass": "7dd8607ac4a517a03a64b7c7fe574baa",
+        "icon": "https://dev.poteto.ru/assets/it.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "7dd8607ac4a517a03a64b7c7fe574baa",
+        "zping": 1300.060510635376
+    },
+    {
+        "id": "16",
+        "name": "ESTONIA",
+        "proxy_host": "45.129.199.84",
+        "proxy_port": "5598",
+        "proxy_pass": "14c885bd8f83cf26ac8c4bca6c2881b7",
+        "icon": "https://dev.poteto.ru/assets/ee.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "14c885bd8f83cf26ac8c4bca6c2881b7",
+        "zping": 1329.5764923095703
+    },
+    {
+        "id": "22",
+        "name": "GERMANY",
+        "proxy_host": "54.38.159.113",
+        "proxy_port": "5598",
+        "proxy_pass": "db8babc95c974543e755fb9208873181",
+        "icon": "https://dev.poteto.ru/assets/de.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "db8babc95c974543e755fb9208873181",
+        "zping": 1330.256462097168
+    },
+    {
+        "id": "43",
+        "name": "SPAIN",
+        "proxy_host": "188.241.60.34",
+        "proxy_port": "5598",
+        "proxy_pass": "1153abdede2e571dc8e83fda23f50945",
+        "icon": "https://dev.poteto.ru/assets/es.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "1153abdede2e571dc8e83fda23f50945",
+        "zping": 1500.068187713623
+    },
+    {
+        "id": "10",
+        "name": "BULGARIA",
+        "proxy_host": "195.123.227.104",
+        "proxy_port": "5598",
+        "proxy_pass": "49352ed4853f15cb53bdb2b104303867",
+        "icon": "https://dev.poteto.ru/assets/bg.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "49352ed4853f15cb53bdb2b104303867",
+        "zping": 1740.0267124176025
+    },
+    {
+        "id": "15",
+        "name": "DENMARK",
+        "proxy_host": "91.132.92.150",
+        "proxy_port": "5598",
+        "proxy_pass": "cc4c341d66e05199e561dff435ec3906",
+        "icon": "https://dev.poteto.ru/assets/dk.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "cc4c341d66e05199e561dff435ec3906",
+        "zping": 1750.0369548797607
+    },
+    {
+        "id": "1",
+        "name": "ALBANIA",
+        "proxy_host": "103.167.234.91",
+        "proxy_port": "5598",
+        "proxy_pass": "adf2e680dbe194c7b7807c3110810bd5",
+        "icon": "https://dev.poteto.ru/assets/al.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "adf2e680dbe194c7b7807c3110810bd5",
+        "zping": 1800.0619411468506
+    },
+    {
+        "id": "51",
+        "name": "UNITED STATES",
+        "proxy_host": "82.117.252.178",
+        "proxy_port": "5598",
+        "proxy_pass": "3745300cc61ce7c728bcc5f01b7ddf94",
+        "icon": "https://dev.poteto.ru/assets/us.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "3745300cc61ce7c728bcc5f01b7ddf94",
+        "zping": 1890.2783393859863
+    },
+    {
+        "id": "12",
+        "name": "CANADA",
+        "proxy_host": "51.79.22.176",
+        "proxy_port": "5598",
+        "proxy_pass": "aec966e72b70863ca38304c08338ec3d",
+        "icon": "https://dev.poteto.ru/assets/ca.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "aec966e72b70863ca38304c08338ec3d",
+        "zping": 1910.0532531738281
+    },
+    {
+        "id": "39",
+        "name": "RUSSIA",
+        "proxy_host": "185.130.104.167",
+        "proxy_port": "5598",
+        "proxy_pass": "137651bc0442a62744aeed61fd9eabeb",
+        "icon": "https://dev.poteto.ru/assets/ru.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "137651bc0442a62744aeed61fd9eabeb",
+        "zping": 1960.0098133087158
+    },
+    {
+        "id": "14",
+        "name": "CANADA",
+        "proxy_host": "91.194.11.107",
+        "proxy_port": "5598",
+        "proxy_pass": "833036dd261298e09e1534ed96238c62",
+        "icon": "https://dev.poteto.ru/assets/ca.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "833036dd261298e09e1534ed96238c62",
+        "zping": 2009.6888542175293
     },
     {
         "id": "41",
@@ -429,31 +393,7 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "3bce52f9ee8c74db9e73a1691230c787",
-        "zping": 2689.9123191833496
-    },
-    {
-        "id": "25",
-        "name": "HONG KONG",
-        "proxy_host": "194.246.114.64",
-        "proxy_port": "5598",
-        "proxy_pass": "825444fe99016a39c4d8ad0740f5f705",
-        "icon": "https://dev.poteto.ru/assets/hk.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "825444fe99016a39c4d8ad0740f5f705",
-        "zping": 2900.006055831909
-    },
-    {
-        "id": "54",
-        "name": "UNITED STATES",
-        "proxy_host": "23.160.193.22",
-        "proxy_port": "5598",
-        "proxy_pass": "fef22ccb7c967c607701cf1a82651dfe",
-        "icon": "https://dev.poteto.ru/assets/us.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "fef22ccb7c967c607701cf1a82651dfe",
-        "zping": 3043.0028438568115
+        "zping": 2350.1362800598145
     },
     {
         "id": "53",
@@ -465,19 +405,31 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "7c7d2c6e7b356b5f37bf3e21d5ce231c",
-        "zping": 3060.060977935791
+        "zping": 2920.0873374938965
     },
     {
-        "id": "36",
-        "name": "PAKISTAN",
-        "proxy_host": "38.60.217.187",
+        "id": "25",
+        "name": "HONG KONG",
+        "proxy_host": "194.246.114.64",
         "proxy_port": "5598",
-        "proxy_pass": "41b686d35c1d49a0be6e2097abbe1967",
-        "icon": "https://dev.poteto.ru/assets/pk.png",
+        "proxy_pass": "825444fe99016a39c4d8ad0740f5f705",
+        "icon": "https://dev.poteto.ru/assets/hk.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "41b686d35c1d49a0be6e2097abbe1967",
-        "zping": 3580.1303386688232
+        "proxy_user": "825444fe99016a39c4d8ad0740f5f705",
+        "zping": 3000.340461730957
+    },
+    {
+        "id": "54",
+        "name": "UNITED STATES",
+        "proxy_host": "23.160.193.22",
+        "proxy_port": "5598",
+        "proxy_pass": "fef22ccb7c967c607701cf1a82651dfe",
+        "icon": "https://dev.poteto.ru/assets/us.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "fef22ccb7c967c607701cf1a82651dfe",
+        "zping": 3029.890298843384
     },
     {
         "id": "46",
@@ -489,19 +441,7 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "baef6e6b4d25166a06aa1eb41f4ba7d5",
-        "zping": 3670.286178588867
-    },
-    {
-        "id": "5",
-        "name": "AUSTRIA",
-        "proxy_host": "5.181.21.208",
-        "proxy_port": "5598",
-        "proxy_pass": "58a509a90db5de4bfc898e274390f815",
-        "icon": "https://dev.poteto.ru/assets/at.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "58a509a90db5de4bfc898e274390f815",
-        "zping": 3689.829111099243
+        "zping": 3609.8179817199707
     },
     {
         "id": "3",
@@ -513,31 +453,19 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "bf483af9ad1a66e182ff97852154a319",
-        "zping": 3869.563341140747
+        "zping": 3619.6556091308594
     },
     {
-        "id": "2",
-        "name": "AUSTRALIA",
-        "proxy_host": "139.99.170.75",
+        "id": "36",
+        "name": "PAKISTAN",
+        "proxy_host": "38.60.217.187",
         "proxy_port": "5598",
-        "proxy_pass": "e2efdf00230ae3fe1a312b24deaa6b51",
-        "icon": "https://dev.poteto.ru/assets/au.png",
+        "proxy_pass": "41b686d35c1d49a0be6e2097abbe1967",
+        "icon": "https://dev.poteto.ru/assets/pk.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "e2efdf00230ae3fe1a312b24deaa6b51",
-        "zping": 4120.044708251953
-    },
-    {
-        "id": "11",
-        "name": "BULGARIA",
-        "proxy_host": "185.82.218.234",
-        "proxy_port": "5598",
-        "proxy_pass": "b500f44c4cf6713f9aa002682df1ea89",
-        "icon": "https://dev.poteto.ru/assets/bg.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "b500f44c4cf6713f9aa002682df1ea89",
-        "zping": 4139.948844909668
+        "proxy_user": "41b686d35c1d49a0be6e2097abbe1967",
+        "zping": 4080.0223350524902
     },
     {
         "id": "4",
@@ -549,6 +477,66 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "9eb0e61c10dabb76ad0c098d02ff65b2",
-        "zping": 4299.819469451904
+        "zping": 4089.603900909424
+    },
+    {
+        "id": "5",
+        "name": "AUSTRIA",
+        "proxy_host": "5.181.21.208",
+        "proxy_port": "5598",
+        "proxy_pass": "58a509a90db5de4bfc898e274390f815",
+        "icon": "https://dev.poteto.ru/assets/at.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "58a509a90db5de4bfc898e274390f815",
+        "zping": 4139.707803726196
+    },
+    {
+        "id": "2",
+        "name": "AUSTRALIA",
+        "proxy_host": "139.99.170.75",
+        "proxy_port": "5598",
+        "proxy_pass": "e2efdf00230ae3fe1a312b24deaa6b51",
+        "icon": "https://dev.poteto.ru/assets/au.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "e2efdf00230ae3fe1a312b24deaa6b51",
+        "zping": 5029.995679855347
+    },
+    {
+        "id": "11",
+        "name": "BULGARIA",
+        "proxy_host": "185.82.218.234",
+        "proxy_port": "5598",
+        "proxy_pass": "b500f44c4cf6713f9aa002682df1ea89",
+        "icon": "https://dev.poteto.ru/assets/bg.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "b500f44c4cf6713f9aa002682df1ea89",
+        "zping": 5479.804754257202
+    },
+    {
+        "id": "49",
+        "name": "UNITED KINGDOM",
+        "proxy_host": "38.180.199.145",
+        "proxy_port": "5598",
+        "proxy_pass": "953dc668b6008f2979f382e7dd373352",
+        "icon": "https://dev.poteto.ru/assets/gb.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "953dc668b6008f2979f382e7dd373352",
+        "zping": 8859.848976135254
+    },
+    {
+        "id": "9",
+        "name": "BELGIUM",
+        "proxy_host": "194.71.227.228",
+        "proxy_port": "5598",
+        "proxy_pass": "8353c888f3d1cd33a2cced495a8bc14e",
+        "icon": "https://dev.poteto.ru/assets/be.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "8353c888f3d1cd33a2cced495a8bc14e",
+        "zping": 12977.981090545654
     }
 ]
