@@ -1,5 +1,3 @@
-
-
 <style>
   body {
     margin: 0;
@@ -10,7 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: transparent; /* Убедитесь, что фон прозрачный для iframe */
+    background-color: transparent;
   }
 
   .banner {
@@ -19,14 +17,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(270deg, #808080, #ffd700, #808080);
-    background-size: 400% 400%;
+    background-color: #444444;
     border-radius: 10% 14px 15% 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
     text-align: center;
-    animation: clickMe 7s infinite, gradientShift 7s ease infinite;
+    flex-direction: column;
+    padding: 10px;
   }
 
   .banner:hover {
@@ -36,106 +33,119 @@
 
   .content h1 {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin: 0;
     padding-bottom: 5px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   }
 
-  .content p {
-    color: #dcdcdc;
-    font-size: 0.9rem;
-    margin: 0;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  .yes-button {
+    padding: 5px 10px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
   }
 
-  a {
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .yes-button:hover {
+    background-color: #e5c200;
   }
 
-  @keyframes clickMe {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.01); }
-    100% { transform: scale(1); }
+  .input-section {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
   }
 
-  @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
+  .input-section input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .submit-button {
+    padding: 5px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit-button:hover {
+    background-color: #e5c200;
+  }
 </style>
+
 <body>
-  
-  <a href='https://yip.su/250MX5'>
-    <div class="banner">
-      <div class="content">
-        <h1 id='ttle'></h1>
-        <p id='tle'></p>
-      </div> 
+  <div class="banner">
+    <div class="content">
+      <h1 id="ideaQuestion">У вас есть идеи для расширения?</h1>
+      <button class="yes-button" id="yesButton">Да</button>
     </div>
-  </a>
+    <div class="input-section" id="inputSection">
+      <input type="text" id="ideaInput" placeholder="Введите вашу идею" />
+      <button class="submit-button" id="submitIdea">Предложить</button>
+    </div>
+  </div>
 
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  <script>
+    const langs = {
+      "ru": {
+        question: "У вас есть идеи для расширения?",
+        yes: "Да",
+        placeholder: "Введите вашу идею",
+        submit: "Предложить",
+        thanks: "Спасибо"
+      },
+      "en": {
+        question: "Do you have ideas for the extension?",
+        yes: "Yes",
+        placeholder: "Enter your idea",
+        submit: "Submit",
+        thanks: "Thanks"
+      }
+    };
 
-   ym(98127854, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/98127854" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  
-<script>
-const langs = {
-  "ru": {
-    "titles": [
-      "70₽ ЗА 3 ДНЯ",
-      "Заработай 70₽!",
-      "Забирай деньги каждый час"
-    ],
-    "subtitles": [
-      "Кликай!",
-      "Узнай больше!",
-      "Прими участие!"
-    ]
-  },
-  "en": {
-    "titles": [
-      "Earn $1 in 3 Days",
-      "Easy Money!",
-      "Claim money every hour!"
-    ],
-    "subtitles": [
-      "Click now!",
-      "Find out more!",
-      "Join now!"
-    ]
-  }
-};
+    const userLang = navigator.language.startsWith('ru') ? 'ru' : 'en';
+    document.getElementById("ideaQuestion").innerText = langs[userLang].question;
+    document.getElementById("yesButton").innerText = langs[userLang].yes;
+    document.getElementById("ideaInput").placeholder = langs[userLang].placeholder;
+    document.getElementById("submitIdea").innerText = langs[userLang].submit;
 
-function getRandomPhrase(lang) {
-  const title = langs[lang].titles[Math.floor(Math.random() * langs[lang].titles.length)];
-  const subtitle = langs[lang].subtitles[Math.floor(Math.random() * langs[lang].subtitles.length)];
-  return { title, subtitle };
-}
+    document.getElementById("yesButton").addEventListener("click", function() {
+      document.getElementById("ideaQuestion").innerText = '';
+      document.getElementById("yesButton").style.display = "none";
+      document.getElementById("inputSection").style.display = "flex";
+    });
 
-const userLang = navigator.language.startsWith('ru') ? 'ru' : 'en';
-const randomPhrases = getRandomPhrase(userLang);
-console.log(randomPhrases)
-  document.getElementById("ttle").innerText = randomPhrases['title'];
-  document.getElementById("tle").innerText = randomPhrases['subtitle'];
-  
-</script>
+    document.getElementById("submitIdea").addEventListener("click", function() {
+      const idea = document.getElementById("ideaInput").value;
+      if (idea) {
+        
+        fetch("https://oleg142.pythonanywhere.com/pizdec", {
+  method: "POST",
+  body: JSON.stringify({
+    msg: "IDeA: "+document.getElementById("ideaInput").value
+  })
+});
+        document.getElementById("ideaInput").value = ""; // Очистка поля после отправки
+    
+
+        
+      document.getElementById("ideaQuestion").innerText = langs[userLang].thanks;
+        document.getElementById("inputSection").style.display = "";
+        document.getElementById("ideaInput").style.display = "";
+      } else {
+      }
+    });
+  </script>
 </body>
