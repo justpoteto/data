@@ -550,5 +550,17 @@
         "proxy_type": "socks",
         "from": "freeyt",
         "ping": 20270.07246017456
+    },
+    {
+        "id": "60",
+        "name": "UNKNOWN",
+        "proxy_host": "50.7.142.182",
+        "proxy_port": "1022",
+        "proxy_user": "88V8LPnr",
+        "proxy_pass": "rtfGAPm8",
+        "icon": "https://dev.poteto.ru/assets/gb.png",
+        "proxy_type": "http",
+        "from": "freeyt",
+        "ping": 20270.07246017456
     }
 ]
