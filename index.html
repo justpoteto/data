@@ -1,10 +1,16 @@
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4928VJ6F5"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+const measurement_id = `G-K4928VJ6F5`;
+const api_secret = `qtFCeXKqQkyaAQck8sl9ZA`;
 
-  gtag('config', 'G-K4928VJ6F5');
+fetch(`https://www.google-analytics.com/mp/collect?measurement_id=${measurement_id}&api_secret=${api_secret}`, {
+  method: "POST",
+  body: JSON.stringify({
+    client_id: '15351313.513153153',
+    events: [{
+      name: 'tutorial_begin',
+      params: {},
+    }]
+  })
+});
+
 </script>
