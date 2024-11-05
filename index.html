@@ -7,7 +7,7 @@ fetch(`https://www.google-analytics.com/mp/collect?measurement_id=${measurement_
   body: JSON.stringify({
     client_id: self.crypto.randomUUID(),
     events: [{
-      name: 'tutorial_begin',
+      name: 'button_clicked',
       params: {},
     }]
   })
