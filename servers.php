@@ -9,7 +9,7 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "474e26493981b68c0f27b4cf59fd3d89",
-        "ping": 710.9756469726562
+        "ping": 632.6949596405029
     },
     {
         "id": "28",
@@ -21,7 +21,7 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "37e3f5bf1473001398ca4e965dc0a2b1",
-        "ping": 910.8977317810059
+        "ping": 855.365514755249
     },
     {
         "id": "62",
@@ -33,7 +33,7 @@
         "icon": "https://flagcdn.com/w320/nl.png",
         "proxy_type": "http",
         "from": "freevpnchrome",
-        "ping": 959.1536521911621
+        "ping": 964.7321701049805
     },
     {
         "id": "65",
@@ -45,7 +45,7 @@
         "icon": "https://flagcdn.com/w320/nl.png",
         "proxy_type": "http",
         "from": "zelenka",
-        "ping": 1006.4220428466797
+        "ping": 1018.1221961975098
     },
     {
         "id": "32",
@@ -57,331 +57,7 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "7e4a49f3463e9a9e350b477747932510",
-        "ping": 1009.1707706451416
-    },
-    {
-        "id": "60",
-        "name": "Russia",
-        "proxy_host": "45.151.98.28",
-        "proxy_port": "50100",
-        "proxy_user": "bot0TN93",
-        "proxy_pass": "wLiPe9hNN8",
-        "icon": "https://flagcdn.com/w320/ru.png",
-        "proxy_type": "http",
-        "from": "freevpnchrome",
-        "ping": 1021.6414928436279
-    },
-    {
-        "id": "23",
-        "name": "Germany",
-        "proxy_host": "49.12.228.67",
-        "proxy_port": "5598",
-        "proxy_pass": "2744c321c2dfd1ae0e2204f00d3292aa",
-        "icon": "https://flagcdn.com/w320/de.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "2744c321c2dfd1ae0e2204f00d3292aa",
-        "ping": 1052.2661209106445
-    },
-    {
-        "id": "24",
-        "name": "Germany",
-        "proxy_host": "5.199.143.188",
-        "proxy_port": "5598",
-        "proxy_pass": "2a3faeacd01b48e75fb35e9f77dfb525",
-        "icon": "https://flagcdn.com/w320/de.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "2a3faeacd01b48e75fb35e9f77dfb525",
-        "ping": 1065.4826164245605
-    },
-    {
-        "id": "30",
-        "name": "The Netherlands",
-        "proxy_host": "185.186.244.180",
-        "proxy_port": "5598",
-        "proxy_pass": "4def0f1f075d0a89ad7cffe73b64fde1",
-        "icon": "https://flagcdn.com/w320/nl.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "4def0f1f075d0a89ad7cffe73b64fde1",
-        "ping": 1071.965217590332
-    },
-    {
-        "id": "63",
-        "name": "China",
-        "proxy_host": "114.66.226.31",
-        "proxy_port": "50100",
-        "proxy_user": "bot0TN93",
-        "proxy_pass": "wLiPe9hNN8",
-        "icon": "https://flagcdn.com/w320/cn.png",
-        "proxy_type": "http",
-        "from": "freevpnchrome",
-        "ping": 1073.8787651062012
-    },
-    {
-        "id": "16",
-        "name": "Estonia",
-        "proxy_host": "45.129.199.84",
-        "proxy_port": "5598",
-        "proxy_pass": "14c885bd8f83cf26ac8c4bca6c2881b7",
-        "icon": "https://flagcdn.com/w320/ee.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "14c885bd8f83cf26ac8c4bca6c2881b7",
-        "ping": 1172.276496887207
-    },
-    {
-        "id": "49",
-        "name": "United Kingdom",
-        "proxy_host": "38.180.199.145",
-        "proxy_port": "5598",
-        "proxy_pass": "953dc668b6008f2979f382e7dd373352",
-        "icon": "https://flagcdn.com/w320/gb.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "953dc668b6008f2979f382e7dd373352",
-        "ping": 1235.0804805755615
-    },
-    {
-        "id": "21",
-        "name": "France",
-        "proxy_host": "51.210.74.138",
-        "proxy_port": "5598",
-        "proxy_pass": "7f360659f11cb29a27de1e33fcc4a49b",
-        "icon": "https://flagcdn.com/w320/fr.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "7f360659f11cb29a27de1e33fcc4a49b",
-        "ping": 1261.974573135376
-    },
-    {
-        "id": "27",
-        "name": "Italy",
-        "proxy_host": "176.126.83.160",
-        "proxy_port": "5598",
-        "proxy_pass": "7dd8607ac4a517a03a64b7c7fe574baa",
-        "icon": "https://flagcdn.com/w320/it.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "7dd8607ac4a517a03a64b7c7fe574baa",
-        "ping": 1271.7571258544922
-    },
-    {
-        "id": "1",
-        "name": "Albania",
-        "proxy_host": "103.167.234.91",
-        "proxy_port": "5598",
-        "proxy_pass": "adf2e680dbe194c7b7807c3110810bd5",
-        "icon": "https://flagcdn.com/w320/al.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "adf2e680dbe194c7b7807c3110810bd5",
-        "ping": 1279.0040969848633
-    },
-    {
-        "id": "45",
-        "name": "Sweden",
-        "proxy_host": "45.8.147.25",
-        "proxy_port": "5598",
-        "proxy_pass": "96a22abdd8aa824b6cd359cc577f2265",
-        "icon": "https://flagcdn.com/w320/se.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "96a22abdd8aa824b6cd359cc577f2265",
-        "ping": 1297.07932472229
-    },
-    {
-        "id": "61",
-        "name": "China",
-        "proxy_host": "103.115.18.220",
-        "proxy_port": "50100",
-        "proxy_user": "bot0TN93",
-        "proxy_pass": "wLiPe9hNN8",
-        "icon": "https://flagcdn.com/w320/cn.png",
-        "proxy_type": "http",
-        "from": "freevpnchrome",
-        "ping": 1308.934211730957
-    },
-    {
-        "id": "26",
-        "name": "Italy",
-        "proxy_host": "83.229.6.134",
-        "proxy_port": "5598",
-        "proxy_pass": "cf62e3f8d523f7d5cc61ccc76e7e04fb",
-        "icon": "https://flagcdn.com/w320/it.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "cf62e3f8d523f7d5cc61ccc76e7e04fb",
-        "ping": 1319.1337585449219
-    },
-    {
-        "id": "20",
-        "name": "France",
-        "proxy_host": "151.80.147.187",
-        "proxy_port": "5598",
-        "proxy_pass": "87407c0d295cd25079646a440e8fa472",
-        "icon": "https://flagcdn.com/w320/fr.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "87407c0d295cd25079646a440e8fa472",
-        "ping": 1386.4412307739258
-    },
-    {
-        "id": "31",
-        "name": "The Netherlands",
-        "proxy_host": "185.186.244.242",
-        "proxy_port": "5598",
-        "proxy_pass": "35a33412776fefafa5b4b93a4d6aa055",
-        "icon": "https://flagcdn.com/w320/nl.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "35a33412776fefafa5b4b93a4d6aa055",
-        "ping": 1388.2830142974854
-    },
-    {
-        "id": "5",
-        "name": "Austria",
-        "proxy_host": "5.181.21.208",
-        "proxy_port": "5598",
-        "proxy_pass": "58a509a90db5de4bfc898e274390f815",
-        "icon": "https://flagcdn.com/w320/at.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "58a509a90db5de4bfc898e274390f815",
-        "ping": 1389.378547668457
-    },
-    {
-        "id": "44",
-        "name": "Sweden",
-        "proxy_host": "94.131.115.62",
-        "proxy_port": "5598",
-        "proxy_pass": "28e54e6b6bf0356fa855700466215b86",
-        "icon": "https://flagcdn.com/w320/se.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "28e54e6b6bf0356fa855700466215b86",
-        "ping": 1400.9230136871338
-    },
-    {
-        "id": "50",
-        "name": "United Kingdom",
-        "proxy_host": "45.11.180.10",
-        "proxy_port": "5598",
-        "proxy_pass": "e380e4a05b96e8df1abad9b9a4242cc6",
-        "icon": "https://flagcdn.com/w320/gb.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "e380e4a05b96e8df1abad9b9a4242cc6",
-        "ping": 1405.4267406463623
-    },
-    {
-        "id": "22",
-        "name": "Germany",
-        "proxy_host": "54.38.159.113",
-        "proxy_port": "5598",
-        "proxy_pass": "db8babc95c974543e755fb9208873181",
-        "icon": "https://flagcdn.com/w320/de.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "db8babc95c974543e755fb9208873181",
-        "ping": 1411.1318588256836
-    },
-    {
-        "id": "41",
-        "name": "Russia",
-        "proxy_host": "46.29.162.222",
-        "proxy_port": "5598",
-        "proxy_pass": "3bce52f9ee8c74db9e73a1691230c787",
-        "icon": "https://flagcdn.com/w320/ru.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "3bce52f9ee8c74db9e73a1691230c787",
-        "ping": 1450.2196311950684
-    },
-    {
-        "id": "29",
-        "name": "Latvia",
-        "proxy_host": "185.8.61.235",
-        "proxy_port": "5598",
-        "proxy_pass": "479a6b5372398763b013b6c40c7c1053",
-        "icon": "https://flagcdn.com/w320/lv.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "479a6b5372398763b013b6c40c7c1053",
-        "ping": 1453.2902240753174
-    },
-    {
-        "id": "58",
-        "name": "France",
-        "proxy_host": "185.26.223.41",
-        "proxy_port": "50100",
-        "proxy_user": "bot0TN93",
-        "proxy_pass": "wLiPe9hNN8",
-        "icon": "https://flagcdn.com/w320/fr.png",
-        "proxy_type": "http",
-        "from": "freevpnchrome",
-        "ping": 1464.0069007873535
-    },
-    {
-        "id": "42",
-        "name": "Spain",
-        "proxy_host": "185.231.204.88",
-        "proxy_port": "5598",
-        "proxy_pass": "1cc85947e312bd2050015cacf4a98842",
-        "icon": "https://flagcdn.com/w320/es.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "1cc85947e312bd2050015cacf4a98842",
-        "ping": 1488.954782485962
-    },
-    {
-        "id": "43",
-        "name": "Spain",
-        "proxy_host": "188.241.60.34",
-        "proxy_port": "5598",
-        "proxy_pass": "1153abdede2e571dc8e83fda23f50945",
-        "icon": "https://flagcdn.com/w320/es.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "1153abdede2e571dc8e83fda23f50945",
-        "ping": 1658.3096981048584
-    },
-    {
-        "id": "38",
-        "name": "Romania",
-        "proxy_host": "185.225.19.113",
-        "proxy_port": "5598",
-        "proxy_pass": "ad036a591a125a0fc3bc89bba39965d2",
-        "icon": "https://flagcdn.com/w320/ro.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "ad036a591a125a0fc3bc89bba39965d2",
-        "ping": 1691.0326480865479
-    },
-    {
-        "id": "10",
-        "name": "Bulgaria",
-        "proxy_host": "195.123.227.104",
-        "proxy_port": "5598",
-        "proxy_pass": "49352ed4853f15cb53bdb2b104303867",
-        "icon": "https://flagcdn.com/w320/bg.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "49352ed4853f15cb53bdb2b104303867",
-        "ping": 1904.7796726226807
-    },
-    {
-        "id": "6",
-        "name": "Belarus",
-        "proxy_host": "93.125.114.66",
-        "proxy_port": "5598",
-        "proxy_pass": "1d8e6eb43a7c145f37424bdafb8530b1",
-        "icon": "https://flagcdn.com/w320/by.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "1d8e6eb43a7c145f37424bdafb8530b1",
-        "ping": 2123.0578422546387
+        "ping": 1024.6460437774658
     },
     {
         "id": "34",
@@ -393,79 +69,259 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "f8df2f712f4713e67f87c37a9a09f200",
-        "ping": 2155.2839279174805
+        "ping": 1040.2705669403076
     },
     {
-        "id": "14",
-        "name": "Canada",
-        "proxy_host": "91.194.11.107",
+        "id": "23",
+        "name": "Germany",
+        "proxy_host": "49.12.228.67",
         "proxy_port": "5598",
-        "proxy_pass": "833036dd261298e09e1534ed96238c62",
-        "icon": "https://flagcdn.com/w320/ca.png",
+        "proxy_pass": "2744c321c2dfd1ae0e2204f00d3292aa",
+        "icon": "https://flagcdn.com/w320/de.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "833036dd261298e09e1534ed96238c62",
-        "ping": 2333.022356033325
+        "proxy_user": "2744c321c2dfd1ae0e2204f00d3292aa",
+        "ping": 1055.8967590332031
     },
     {
-        "id": "54",
-        "name": "United States",
-        "proxy_host": "23.160.193.22",
+        "id": "24",
+        "name": "Germany",
+        "proxy_host": "5.199.143.188",
         "proxy_port": "5598",
-        "proxy_pass": "fef22ccb7c967c607701cf1a82651dfe",
-        "icon": "https://flagcdn.com/w320/us.png",
+        "proxy_pass": "2a3faeacd01b48e75fb35e9f77dfb525",
+        "icon": "https://flagcdn.com/w320/de.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "fef22ccb7c967c607701cf1a82651dfe",
-        "ping": 2337.406873703003
+        "proxy_user": "2a3faeacd01b48e75fb35e9f77dfb525",
+        "ping": 1071.521282196045
     },
     {
-        "id": "12",
-        "name": "Canada",
-        "proxy_host": "51.79.22.176",
+        "id": "30",
+        "name": "The Netherlands",
+        "proxy_host": "185.186.244.180",
         "proxy_port": "5598",
-        "proxy_pass": "aec966e72b70863ca38304c08338ec3d",
-        "icon": "https://flagcdn.com/w320/ca.png",
+        "proxy_pass": "4def0f1f075d0a89ad7cffe73b64fde1",
+        "icon": "https://flagcdn.com/w320/nl.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "aec966e72b70863ca38304c08338ec3d",
-        "ping": 2375.0641345977783
+        "proxy_user": "4def0f1f075d0a89ad7cffe73b64fde1",
+        "ping": 1071.521282196045
     },
     {
-        "id": "51",
-        "name": "United States",
-        "proxy_host": "82.117.252.178",
+        "id": "16",
+        "name": "Estonia",
+        "proxy_host": "45.129.199.84",
         "proxy_port": "5598",
-        "proxy_pass": "3745300cc61ce7c728bcc5f01b7ddf94",
-        "icon": "https://flagcdn.com/w320/us.png",
+        "proxy_pass": "14c885bd8f83cf26ac8c4bca6c2881b7",
+        "icon": "https://flagcdn.com/w320/ee.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "3745300cc61ce7c728bcc5f01b7ddf94",
-        "ping": 2382.0154666900635
+        "proxy_user": "14c885bd8f83cf26ac8c4bca6c2881b7",
+        "ping": 1218.6627388000488
     },
     {
-        "id": "53",
-        "name": "United States",
-        "proxy_host": "23.160.193.228",
+        "id": "21",
+        "name": "France",
+        "proxy_host": "51.210.74.138",
         "proxy_port": "5598",
-        "proxy_pass": "7c7d2c6e7b356b5f37bf3e21d5ce231c",
-        "icon": "https://flagcdn.com/w320/us.png",
+        "proxy_pass": "7f360659f11cb29a27de1e33fcc4a49b",
+        "icon": "https://flagcdn.com/w320/fr.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "7c7d2c6e7b356b5f37bf3e21d5ce231c",
-        "ping": 2418.9577102661133
+        "proxy_user": "7f360659f11cb29a27de1e33fcc4a49b",
+        "ping": 1225.1689434051514
     },
     {
-        "id": "59",
-        "name": "United States",
-        "proxy_host": "74.124.221.75",
+        "id": "27",
+        "name": "Italy",
+        "proxy_host": "176.126.83.160",
+        "proxy_port": "5598",
+        "proxy_pass": "7dd8607ac4a517a03a64b7c7fe574baa",
+        "icon": "https://flagcdn.com/w320/it.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "7dd8607ac4a517a03a64b7c7fe574baa",
+        "ping": 1240.8008575439453
+    },
+    {
+        "id": "45",
+        "name": "Sweden",
+        "proxy_host": "45.8.147.25",
+        "proxy_port": "5598",
+        "proxy_pass": "96a22abdd8aa824b6cd359cc577f2265",
+        "icon": "https://flagcdn.com/w320/se.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "96a22abdd8aa824b6cd359cc577f2265",
+        "ping": 1249.9122619628906
+    },
+    {
+        "id": "49",
+        "name": "United Kingdom",
+        "proxy_host": "38.180.199.145",
+        "proxy_port": "5598",
+        "proxy_pass": "953dc668b6008f2979f382e7dd373352",
+        "icon": "https://flagcdn.com/w320/gb.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "953dc668b6008f2979f382e7dd373352",
+        "ping": 1281.1625003814697
+    },
+    {
+        "id": "44",
+        "name": "Sweden",
+        "proxy_host": "94.131.115.62",
+        "proxy_port": "5598",
+        "proxy_pass": "28e54e6b6bf0356fa855700466215b86",
+        "icon": "https://flagcdn.com/w320/se.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "28e54e6b6bf0356fa855700466215b86",
+        "ping": 1281.1625003814697
+    },
+    {
+        "id": "41",
+        "name": "Russia",
+        "proxy_host": "46.29.162.222",
+        "proxy_port": "5598",
+        "proxy_pass": "3bce52f9ee8c74db9e73a1691230c787",
+        "icon": "https://flagcdn.com/w320/ru.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "3bce52f9ee8c74db9e73a1691230c787",
+        "ping": 1303.3020496368408
+    },
+    {
+        "id": "26",
+        "name": "Italy",
+        "proxy_host": "83.229.6.134",
+        "proxy_port": "5598",
+        "proxy_pass": "cf62e3f8d523f7d5cc61ccc76e7e04fb",
+        "icon": "https://flagcdn.com/w320/it.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "cf62e3f8d523f7d5cc61ccc76e7e04fb",
+        "ping": 1325.4411220550537
+    },
+    {
+        "id": "20",
+        "name": "France",
+        "proxy_host": "151.80.147.187",
+        "proxy_port": "5598",
+        "proxy_pass": "87407c0d295cd25079646a440e8fa472",
+        "icon": "https://flagcdn.com/w320/fr.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "87407c0d295cd25079646a440e8fa472",
+        "ping": 1325.4411220550537
+    },
+    {
+        "id": "31",
+        "name": "The Netherlands",
+        "proxy_host": "185.186.244.242",
+        "proxy_port": "5598",
+        "proxy_pass": "35a33412776fefafa5b4b93a4d6aa055",
+        "icon": "https://flagcdn.com/w320/nl.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "35a33412776fefafa5b4b93a4d6aa055",
+        "ping": 1356.7004203796387
+    },
+    {
+        "id": "50",
+        "name": "United Kingdom",
+        "proxy_host": "45.11.180.10",
+        "proxy_port": "5598",
+        "proxy_pass": "e380e4a05b96e8df1abad9b9a4242cc6",
+        "icon": "https://flagcdn.com/w320/gb.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "e380e4a05b96e8df1abad9b9a4242cc6",
+        "ping": 1365.8101558685303
+    },
+    {
+        "id": "61",
+        "name": "China",
+        "proxy_host": "103.115.18.220",
         "proxy_port": "50100",
         "proxy_user": "bot0TN93",
         "proxy_pass": "wLiPe9hNN8",
-        "icon": "https://flagcdn.com/w320/us.png",
+        "icon": "https://flagcdn.com/w320/cn.png",
         "proxy_type": "http",
         "from": "freevpnchrome",
-        "ping": 2495.300531387329
+        "ping": 1389.9848461151123
+    },
+    {
+        "id": "1",
+        "name": "Albania",
+        "proxy_host": "103.167.234.91",
+        "proxy_port": "5598",
+        "proxy_pass": "adf2e680dbe194c7b7807c3110810bd5",
+        "icon": "https://flagcdn.com/w320/al.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "adf2e680dbe194c7b7807c3110810bd5",
+        "ping": 1403.5766124725342
+    },
+    {
+        "id": "42",
+        "name": "Spain",
+        "proxy_host": "185.231.204.88",
+        "proxy_port": "5598",
+        "proxy_pass": "1cc85947e312bd2050015cacf4a98842",
+        "icon": "https://flagcdn.com/w320/es.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "1cc85947e312bd2050015cacf4a98842",
+        "ping": 1486.067771911621
+    },
+    {
+        "id": "22",
+        "name": "Germany",
+        "proxy_host": "54.38.159.113",
+        "proxy_port": "5598",
+        "proxy_pass": "db8babc95c974543e755fb9208873181",
+        "icon": "https://flagcdn.com/w320/de.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "db8babc95c974543e755fb9208873181",
+        "ping": 1516.2444114685059
+    },
+    {
+        "id": "38",
+        "name": "Romania",
+        "proxy_host": "185.225.19.113",
+        "proxy_port": "5598",
+        "proxy_pass": "ad036a591a125a0fc3bc89bba39965d2",
+        "icon": "https://flagcdn.com/w320/ro.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "ad036a591a125a0fc3bc89bba39965d2",
+        "ping": 1651.3047218322754
+    },
+    {
+        "id": "43",
+        "name": "Spain",
+        "proxy_host": "188.241.60.34",
+        "proxy_port": "5598",
+        "proxy_pass": "1153abdede2e571dc8e83fda23f50945",
+        "icon": "https://flagcdn.com/w320/es.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "1153abdede2e571dc8e83fda23f50945",
+        "ping": 1717.292070388794
+    },
+    {
+        "id": "58",
+        "name": "France",
+        "proxy_host": "185.26.223.41",
+        "proxy_port": "50100",
+        "proxy_user": "bot0TN93",
+        "proxy_pass": "wLiPe9hNN8",
+        "icon": "https://flagcdn.com/w320/fr.png",
+        "proxy_type": "http",
+        "from": "freevpnchrome",
+        "ping": 1807.8525066375732
     },
     {
         "id": "57",
@@ -477,19 +333,79 @@
         "icon": "https://flagcdn.com/w320/us.png",
         "proxy_type": "http",
         "from": "freevpnchrome",
-        "ping": 2596.4534282684326
+        "ping": 2087.219715118408
     },
     {
-        "id": "47",
-        "name": "Gibraltar",
-        "proxy_host": "95.164.69.114",
+        "id": "14",
+        "name": "Canada",
+        "proxy_host": "91.194.11.107",
         "proxy_port": "5598",
-        "proxy_pass": "cb7904b604bd2dc6101c26a0802af587",
-        "icon": "https://flagcdn.com/w320/gi.png",
+        "proxy_pass": "833036dd261298e09e1534ed96238c62",
+        "icon": "https://flagcdn.com/w320/ca.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "cb7904b604bd2dc6101c26a0802af587",
-        "ping": 3166.290760040283
+        "proxy_user": "833036dd261298e09e1534ed96238c62",
+        "ping": 2346.3521003723145
+    },
+    {
+        "id": "54",
+        "name": "United States",
+        "proxy_host": "23.160.193.22",
+        "proxy_port": "5598",
+        "proxy_pass": "fef22ccb7c967c607701cf1a82651dfe",
+        "icon": "https://flagcdn.com/w320/us.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "fef22ccb7c967c607701cf1a82651dfe",
+        "ping": 2360.9390258789062
+    },
+    {
+        "id": "12",
+        "name": "Canada",
+        "proxy_host": "51.79.22.176",
+        "proxy_port": "5598",
+        "proxy_pass": "aec966e72b70863ca38304c08338ec3d",
+        "icon": "https://flagcdn.com/w320/ca.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "aec966e72b70863ca38304c08338ec3d",
+        "ping": 2378.5719871520996
+    },
+    {
+        "id": "53",
+        "name": "United States",
+        "proxy_host": "23.160.193.228",
+        "proxy_port": "5598",
+        "proxy_pass": "7c7d2c6e7b356b5f37bf3e21d5ce231c",
+        "icon": "https://flagcdn.com/w320/us.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "7c7d2c6e7b356b5f37bf3e21d5ce231c",
+        "ping": 2469.5348739624023
+    },
+    {
+        "id": "59",
+        "name": "United States",
+        "proxy_host": "74.124.221.75",
+        "proxy_port": "50100",
+        "proxy_user": "bot0TN93",
+        "proxy_pass": "wLiPe9hNN8",
+        "icon": "https://flagcdn.com/w320/us.png",
+        "proxy_type": "http",
+        "from": "freevpnchrome",
+        "ping": 2519.8309421539307
+    },
+    {
+        "id": "51",
+        "name": "United States",
+        "proxy_host": "82.117.252.178",
+        "proxy_port": "5598",
+        "proxy_pass": "3745300cc61ce7c728bcc5f01b7ddf94",
+        "icon": "https://flagcdn.com/w320/us.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "3745300cc61ce7c728bcc5f01b7ddf94",
+        "ping": 2743.2525157928467
     },
     {
         "id": "64",
@@ -501,7 +417,7 @@
         "icon": "https://flagcdn.com/w320/ca.png",
         "proxy_type": "http",
         "from": "freevpnchrome",
-        "ping": 3466.430902481079
+        "ping": 3341.1989212036133
     },
     {
         "id": "25",
@@ -513,43 +429,19 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "825444fe99016a39c4d8ad0740f5f705",
-        "ping": 3482.402801513672
+        "ping": 3519.5627212524414
     },
     {
-        "id": "46",
-        "name": "Taiwan",
-        "proxy_host": "38.54.107.227",
+        "id": "5",
+        "name": "Austria",
+        "proxy_host": "5.181.21.208",
         "proxy_port": "5598",
-        "proxy_pass": "baef6e6b4d25166a06aa1eb41f4ba7d5",
-        "icon": "https://flagcdn.com/w320/tw.png",
+        "proxy_pass": "58a509a90db5de4bfc898e274390f815",
+        "icon": "https://flagcdn.com/w320/at.png",
         "slow": false,
         "proxy_type": "http",
-        "proxy_user": "baef6e6b4d25166a06aa1eb41f4ba7d5",
-        "ping": 4248.608112335205
-    },
-    {
-        "id": "3",
-        "name": "Australia",
-        "proxy_host": "103.75.119.40",
-        "proxy_port": "5598",
-        "proxy_pass": "bf483af9ad1a66e182ff97852154a319",
-        "icon": "https://flagcdn.com/w320/au.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "bf483af9ad1a66e182ff97852154a319",
-        "ping": 4426.038503646851
-    },
-    {
-        "id": "2",
-        "name": "Australia",
-        "proxy_host": "139.99.170.75",
-        "proxy_port": "5598",
-        "proxy_pass": "e2efdf00230ae3fe1a312b24deaa6b51",
-        "icon": "https://flagcdn.com/w320/au.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "e2efdf00230ae3fe1a312b24deaa6b51",
-        "ping": 4605.591773986816
+        "proxy_user": "58a509a90db5de4bfc898e274390f815",
+        "ping": 3854.7959327697754
     },
     {
         "id": "36",
@@ -561,7 +453,79 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "41b686d35c1d49a0be6e2097abbe1967",
-        "ping": 4791.099309921265
+        "ping": 4278.161525726318
+    },
+    {
+        "id": "46",
+        "name": "Taiwan",
+        "proxy_host": "38.54.107.227",
+        "proxy_port": "5598",
+        "proxy_pass": "baef6e6b4d25166a06aa1eb41f4ba7d5",
+        "icon": "https://flagcdn.com/w320/tw.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "baef6e6b4d25166a06aa1eb41f4ba7d5",
+        "ping": 4281.693935394287
+    },
+    {
+        "id": "63",
+        "name": "China",
+        "proxy_host": "114.66.226.31",
+        "proxy_port": "50100",
+        "proxy_user": "bot0TN93",
+        "proxy_pass": "wLiPe9hNN8",
+        "icon": "https://flagcdn.com/w320/cn.png",
+        "proxy_type": "http",
+        "from": "freevpnchrome",
+        "ping": 4356.615304946899
+    },
+    {
+        "id": "3",
+        "name": "Australia",
+        "proxy_host": "103.75.119.40",
+        "proxy_port": "5598",
+        "proxy_pass": "bf483af9ad1a66e182ff97852154a319",
+        "icon": "https://flagcdn.com/w320/au.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "bf483af9ad1a66e182ff97852154a319",
+        "ping": 4438.158750534058
+    },
+    {
+        "id": "29",
+        "name": "Latvia",
+        "proxy_host": "185.8.61.235",
+        "proxy_port": "5598",
+        "proxy_pass": "479a6b5372398763b013b6c40c7c1053",
+        "icon": "https://flagcdn.com/w320/lv.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "479a6b5372398763b013b6c40c7c1053",
+        "ping": 4696.075916290283
+    },
+    {
+        "id": "2",
+        "name": "Australia",
+        "proxy_host": "139.99.170.75",
+        "proxy_port": "5598",
+        "proxy_pass": "e2efdf00230ae3fe1a312b24deaa6b51",
+        "icon": "https://flagcdn.com/w320/au.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "e2efdf00230ae3fe1a312b24deaa6b51",
+        "ping": 5093.921661376953
+    },
+    {
+        "id": "10",
+        "name": "Bulgaria",
+        "proxy_host": "195.123.227.104",
+        "proxy_port": "5598",
+        "proxy_pass": "49352ed4853f15cb53bdb2b104303867",
+        "icon": "https://flagcdn.com/w320/bg.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "49352ed4853f15cb53bdb2b104303867",
+        "ping": 6945.195198059082
     },
     {
         "id": "4",
@@ -573,7 +537,7 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "9eb0e61c10dabb76ad0c098d02ff65b2",
-        "ping": 5915.634393692017
+        "ping": 16418.729782104492
     },
     {
         "id": "11",
@@ -585,18 +549,6 @@
         "slow": false,
         "proxy_type": "http",
         "proxy_user": "b500f44c4cf6713f9aa002682df1ea89",
-        "ping": 16797.301292419434
-    },
-    {
-        "id": "15",
-        "name": "Denmark",
-        "proxy_host": "91.132.92.150",
-        "proxy_port": "5598",
-        "proxy_pass": "cc4c341d66e05199e561dff435ec3906",
-        "icon": "https://flagcdn.com/w320/dk.png",
-        "slow": false,
-        "proxy_type": "http",
-        "proxy_user": "cc4c341d66e05199e561dff435ec3906",
-        "ping": 31638.449907302856
+        "ping": 28516.690731048584
     }
 ]
