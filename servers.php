@@ -694,5 +694,20 @@
         "proxy_pass": "!K3o!nHrs4M5Lxtg",
         "ping": 16046.749353408813,
         "is_pro": true
+    },
+
+    {
+        "id": "999",
+        "name": "Germany",
+        "proxy_host": "23.88.122.49",
+        "proxy_port": "10655",
+        "proxy_pass": "oleg",
+        "icon": "https://dev.poteto.ru/assets/de.png",
+        "slow": false,
+        "proxy_type": "http",
+        "proxy_user": "oleg",
+        "from": "none",
+        "is_pro": false,
+        "ping": 1403.655767440796
     }
 ]
