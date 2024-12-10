@@ -1,13 +1,104 @@
-<h1>
-  How to use Non-Proxy websites?
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайты: Прокси и Исключения</title>
+  <style>
+    * {
+      font-family: 'Arial', sans-serif;
+    }
 
-<p>
-  Zxc
-</p>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
 
-<style>
-  body {
-    max-width: 500px;
-  }
-</style>
+    .container {
+      max-width: 600px;
+      text-align: left;
+    }
+
+    h1 {
+      color: #29a19c;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .code {
+      background-color: #202020;
+      padding: 10px;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+    }
+
+    .site {
+      background: #297f84;
+      margin: 4px 0;
+      padding: 8px;
+      border-radius: 5px;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .tooltip {
+      text-decoration: underline;
+      cursor: help;
+      position: relative;
+    }
+
+    .tooltip:hover::after {
+      content: attr(title);
+      position: absolute;
+      background-color: #202020;
+      color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      top: -30px;
+      left: 0;
+      white-space: nowrap;
+      font-size: 12px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Настройка <span class="tooltip" title="Не проксируемые сайты - те которые не будет проходить через VPN">не-проксируемых</span> сайтов</h1>
+    <p>Если вы хотите запретить проксирование определённых сайтов, используйте список исключений. Это может быть полезно, чтобы обходить прокси для некоторых ресурсов.</p>
+
+    <h3>Пример настройки</h3>
+    <p>Чтобы запретить проксирование сайтов <strong>ВКонтакте</strong> и <strong>RuTracker</strong>, добавьте следующие домены в список исключений:</p>
+
+    <div class="code">
+      <span class='site'>vk.com</span>
+      <span class='site'>rutracker.org</span>
+    </div>
+
+    <h1>Настройка списка <span class="tooltip" title="Проксируемые сайты - только указанные сайты будут проходить через VPN">проксируемых</span> сайтов</h1>
+    <p>Список проксируемых сайтов позволяет использовать прокси только для выбранных ресурсов. Все остальные сайты не будут проходить через прокси.</p>
+
+    <h3>Пример настройки</h3>
+    <p>Чтобы использовать прокси только для сайта <strong>ChatGPT</strong>, добавьте следующий домен:</p>
+
+    <div class="code">
+      <span class='site'>chatgpt.com</span>
+    </div>
+  </div>
+  <script>
+    var lang = navigator.language;
+    if (lang != "ru" && lang != "ru-RU") {
+      window.location.href = 'howtouse-en.html'
+    }
+  </script>
+</body>
+</html>
